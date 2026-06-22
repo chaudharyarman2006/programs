@@ -1,17 +1,18 @@
 // Online C compiler to run C program online
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
 int main() {
     
         int t;
         //input
-        printf("Enter temperature in  farenheit:");
-        scanf("%d",&t);
+        cout<<"Enter temperature in  farenheit:";
+       cin>>t;
         //logic
         int c=(t-32)/1.8;
         
         //print result
-        printf("celcius temp = %d",c);
+        cout<<"celcius temp = "<<c;
         
         
     
