@@ -1,0 +1,39 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void check(int ar[],int n)
+{
+    int avg=0;
+    float average;
+    for(int i=0;i<n;i++)
+    {
+        avg=(avg+ar[i]);
+    }
+    average=avg/n;
+    printf("avarage of array is:%f\n",average);
+    
+}
+int main()
+{
+        int ar[20];
+    int n,i;
+    printf("enter size of array:");
+    scanf("%d",&n);
+    printf("enter array:");
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&ar[i]);
+    }
+    printf("array elements:");
+        for(int i=0;i<n;i++)
+        {
+    printf(" %d",ar[i]);
+        }
+      printf("\n")  ;
+    check(ar,n);
+        
+    
+}
+    
+
+    
+
